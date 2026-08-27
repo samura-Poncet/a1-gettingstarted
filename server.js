@@ -19,7 +19,7 @@ const server = http.createServer( function( request,response ) {
     case '/cat2.png':
       sendFile(response, 'cat2.png')
       break
-    case '/crochet.png':
+    case '/crochet1.png':
       sendFile(response, 'crochet1.png')
       break
     case '/powerlifting.webp':
