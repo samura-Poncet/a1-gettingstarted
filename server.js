@@ -10,28 +10,28 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
-    case '2page.html':
+    case '/2page.html':
       sendFile(response, '2page.html')
       break
-    case '3page.html':
+    case '/3page.html':
       sendFile(response, '3page.html')
       break
-    case 'cat2.png':
+    case '/cat2.png':
       sendFile(response, 'cat2.png')
       break
-    case 'crochet.png':
-      sendFile(response, 'crochet.png')
+    case '/crochet.png':
+      sendFile(response, 'crochet1.png')
       break
-    case 'powerlifting.webp':
+    case '/powerlifting.webp':
       sendFile(response, 'powerlifting.webp')
       break
-    case 'realcat.png':
+    case '/realcat.png':
       sendFile(response, 'realcat.png')
       break
-    case 'swimming.png':
+    case '/swimming.png':
       sendFile(response, 'swimming.png')
       break
-    case 'walking.png':
+    case '/walking.png':
       sendFile(response, 'walking.png')
       break
 
